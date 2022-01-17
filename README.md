@@ -1,2 +1,2 @@
 # Sandbox
-This repository is used for experimental pourpose
+This repository is used for experimental purpose
