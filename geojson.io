@@ -33,7 +33,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Elettrica": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -351,9 +353,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#c7bc29",
-        "stroke-width": 2.2,
-        "stroke-opacity": 0.7
+        "Elettrica": ""
       },
       "geometry": {
         "type": "LineString",
@@ -515,72 +515,443 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ip": "10.8.2.45",
+        "gruppo_aziendali": "Developer, Networking, PM",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "Bici",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Abonamento a Trasporto"
+        ],
+        "orario_arrivo": "1970-01-01 08:30:00",
+        "eta": "35-50",
+        "istruzione": [
+          "Corso di laurea o post laurea"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti"
+          ],
+          "no": [
+            "Bici elettrica"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se Costassero di meno"
+          ]
+        },
+        "Azienda": "Bici Papin",
+        "Pagamento": "aaa",
+        "Elettrica": "SI"
+      },
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              11.34610891342163,
-              46.49332559578878
-            ],
-            [
-              11.345314979553223,
-              46.492646065750804
-            ],
-            [
-              11.34488582611084,
-              46.49186311844095
-            ],
-            [
-              11.344263553619385,
-              46.49119834300937
-            ],
-            [
-              11.343619823455809,
-              46.490504013327865
-            ],
-            [
-              11.343104839324951,
-              46.48998695355164
-            ],
-            [
-              11.34314775466919,
-              46.48979490152569
-            ],
-            [
-              11.343555450439453,
-              46.489588075508614
-            ],
-            [
-              11.344907283782959,
-              46.4899278606928
-            ],
-            [
-              11.345443725585938,
-              46.490119912249284
-            ],
-            [
-              11.346495151519775,
-              46.49134607158527
-            ],
-            [
-              11.347031593322752,
-              46.492099481080714
-            ],
-            [
-              11.347289085388184,
-              46.49297105943698
-            ],
-            [
-              11.34638786315918,
-              46.49348809084426
-            ],
-            [
-              11.34610891342163,
-              46.49332559578878
-            ]
+            46.48532,
+            11.34735
+          ],
+          [
+            46.497789,
+            11.332265
+          ],
+          [
+            46.499451,
+            11.339996
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "Automobile (Elettrica - Ibrida)",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Moto (Benzina)",
+          "Automobil (Elettrica-Ibrida)",
+          "Micro Mobilita (Monopattino Monopattino-Elettrico Altri-Mezzi)"
+        ],
+        "orario_arrivo": "1970-01-01 08:00:00",
+        "eta": "25-35",
+        "istruzione": [
+          "Scuola media superiore"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Mezzi Pubblici se Costassero di meno",
+            "Bici elettrica",
+            "Auto condivisa"
+          ],
+          "no": [],
+          "uncertain": []
+        },
+        "Azienda": "Comune Bolzano",
+        "Pagamento": "bbb",
+        "Elettrica": "SI"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.502132,
+            11.344282
+          ],
+          [
+            46.499451,
+            11.339996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Via J. Durst 34 - 39042 - Bressanone (BZ)",
+        "mezzo_utilizato_andata": "Automobile (Benzina-Diesel)",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Bici (Elettrica)",
+          "Moto (Benzina)",
+          "Moto o Scooter (Elettrico)",
+          "Abonamento a Trasporto",
+          "Automobil (Benzian-Diesel)",
+          "Automobil (Elettrica-Ibrida)",
+          "Automobil-2 (Benzian-Diesel)",
+          "Automobil-2 (Elettrica-Ibrida)",
+          "Automobil Aziendale",
+          "Micro Mobilita (Monopattino Monopattino-Elettrico Altri-Mezzi)"
+        ],
+        "orario_arrivo": "1970-01-01 07:50:00",
+        "eta": "35-50",
+        "istruzione": [
+          "Scuola media inferiore"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1",
+          "Figlio/a 2",
+          "Altro familiare 1",
+          "Altro familiare 2"
+        ],
+        "cambiamento": {
+          "si": [
+            "Auto condivisa"
+          ],
+          "no": [
+            "Mezzi Pubblici se Costassero di meno"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Bici elettrica"
+          ]
+        },
+        "Azienda": "",
+        "Pagamento": "ccc",
+        "Elettrica": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.509568,
+            11.279111
+          ],
+          [
+            46.49494,
+            11.328106
+          ],
+          [
+            46.499451,
+            11.339996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "A piedi",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Automobil (Benzian-Diesel)"
+        ],
+        "orario_arrivo": "1970-01-01 08:45:00",
+        "eta": "50-65",
+        "istruzione": [
+          "Corso di laurea o post laurea"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1",
+          "Figlio/a 2"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Auto condivisa"
+          ],
+          "no": [
+            "Bici elettrica"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se Costassero di meno"
+          ]
+        },
+        "Pagamento": "ddd",
+        "Elettrica": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.457308,
+            11.334819
+          ],
+          [
+            46.499451,
+            11.339996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.8.2.45",
+        "gruppo_aziendali": "Developer, Networking, PM",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "Bici",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Abonamento a Trasporto"
+        ],
+        "orario_arrivo": "1970-01-01 08:30:00",
+        "eta": "35-50",
+        "istruzione": [
+          "Corso di laurea o post laurea"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti"
+          ],
+          "no": [
+            "Bici elettrica"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se Costassero di meno"
+          ]
+        },
+        "Pagamento": "sss",
+        "Azienda": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.48532,
+            11.34735
+          ],
+          [
+            46.497789,
+            11.332265
+          ],
+          [
+            46.499451,
+            11.339996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "Automobile (Elettrica - Ibrida)",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Moto (Benzina)",
+          "Automobil (Elettrica-Ibrida)",
+          "Micro Mobilita (Monopattino Monopattino-Elettrico Altri-Mezzi)"
+        ],
+        "orario_arrivo": "1970-01-01 08:00:00",
+        "eta": "25-35",
+        "istruzione": [
+          "Scuola media superiore"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Mezzi Pubblici se Costassero di meno",
+            "Bici elettrica",
+            "Auto condivisa"
+          ],
+          "no": [],
+          "uncertain": []
+        },
+        "Pagamento": "aaa"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.502132,
+            11.344282
+          ],
+          [
+            46.499451,
+            11.339996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Via J. Durst 34 - 39042 - Bressanone (BZ)",
+        "mezzo_utilizato_andata": "Automobile (Benzina-Diesel)",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Bici (Elettrica)",
+          "Moto (Benzina)",
+          "Moto o Scooter (Elettrico)",
+          "Abonamento a Trasporto",
+          "Automobil (Benzian-Diesel)",
+          "Automobil (Elettrica-Ibrida)",
+          "Automobil-2 (Benzian-Diesel)",
+          "Automobil-2 (Elettrica-Ibrida)",
+          "Automobil Aziendale",
+          "Micro Mobilita (Monopattino Monopattino-Elettrico Altri-Mezzi)"
+        ],
+        "orario_arrivo": "1970-01-01 07:50:00",
+        "eta": "35-50",
+        "istruzione": [
+          "Scuola media inferiore"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1",
+          "Figlio/a 2",
+          "Altro familiare 1",
+          "Altro familiare 2"
+        ],
+        "cambiamento": {
+          "si": [
+            "Auto condivisa"
+          ],
+          "no": [
+            "Mezzi Pubblici se Costassero di meno"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Bici elettrica"
+          ]
+        },
+        "Pagamento": "hhh"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.279111,
+            46.509568
+          ],
+          [
+            11.328106,
+            46.49494
+          ],
+          [
+            11.339996,
+            46.499451
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.1.2.137",
+        "gruppo_aziendali": "Amministrazione",
+        "sede_lavoro": "Corso Italia 13 M - 39100 - Bolzano (BZ)",
+        "mezzo_utilizato_andata": "A piedi",
+        "mezzo_a_disposizione": [
+          "Bici",
+          "Automobil (Benzian-Diesel)"
+        ],
+        "orario_arrivo": "1970-01-01 08:45:00",
+        "eta": "50-65",
+        "istruzione": [
+          "Corso di laurea o post laurea"
+        ],
+        "abbonamento_familiare": [
+          "Coniuge / Convivente",
+          "Figlio/a 1",
+          "Figlio/a 2"
+        ],
+        "cambiamento": {
+          "si": [
+            "Mezzi Pubblici se fossero Puntuali Puliti",
+            "Auto condivisa"
+          ],
+          "no": [
+            "Bici elettrica"
+          ],
+          "uncertain": [
+            "Mezzi Pubblici se Costassero di meno"
+          ]
+        },
+        "Pagamento": "www",
+        "Elettrica": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.334819,
+            46.457308
+          ],
+          [
+            11.339996,
+            46.499451
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.351385784989635,
+          46.47568702697754
         ]
       }
     }
